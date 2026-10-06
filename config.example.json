@@ -1,0 +1,17 @@
+{
+  "claude_command": "claude",
+  "timeout_seconds": 300,
+  "interval_seconds": 3600,
+  "rounds": 1,
+  "conversation_mode": "independent",
+  "transcript_path": "transcripts/discussions.jsonl",
+  "sequences": [
+    {
+      "name": "daily-reflection",
+      "messages": [
+        "请用简短要点总结今天 AI 工程领域值得关注的变化。若无法联网，请说明，并基于已有知识讨论。",
+        "针对上面的总结，提出一个值得进一步验证的问题，并给出验证思路。"
+      ]
+    }
+  ]
+}
